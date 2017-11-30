@@ -1,0 +1,89 @@
+*
+{box-sizing: border-box;}
+/*this will resize the content box according to the chosen WxH taking hte boarder, margin and padding size so it will maintain the specified numbers*/
+
+html 
+    {font-size: 16px;
+    height: 100%;}
+
+main h4
+    {font-family:"Trebushet";
+    font-size:18px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    margin:0 auto;}
+
+nav
+    {padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 100%vw;
+    height: auto;
+    border-radius:10px;}
+
+nav li
+    {float: left;
+    margin: 0 auto;}
+
+nav ul
+    {clear: both;}
+
+main
+{clear: both;}
+
+main #project
+    {padding: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 100%vw;
+    height: 100%vh;
+    max-width:1000px;
+    border-radius:10px;}
+div
+    {padding: 30px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width:30%
+    border-radius:10px;
+    background-color: bisque;}
+
+.project_image
+    {border: 1px solid black;
+    width: 15rem;}
+
+body 
+    {margin: 0 auto;
+    max-width: 900px;}
+
+.navbar 
+    {float:left;}   
+
+aside.projects 
+    {float: left;
+    overflow:auto;}
+
+#project
+    {margin: 0 auto;}
+
+#social_media
+{clear: both;}
+
+.social_media
+    {float: left;
+    margin: 0 auto;}
+
+.social_media img
+    {width: 100px;}
+
+.rights
+    {clear: both;
+    height: 3rem;}
+
+
+/**ABOUT PAGE*/
+figure
+    {float: left;
+    border-radius:30px;}
+
+aside.about
+    {max-width: 900px;}
