@@ -1,76 +1,96 @@
 *
-{box-sizing: border-box;}
+{box-sizing: border-box;
+margin: 0 auto;}
 /*this will resize the content box according to the chosen WxH taking hte boarder, margin and padding size so it will maintain the specified numbers*/
 
 html 
     {font-size: 16px;
-    height: 100%;}
+    height: 100%;
+    aligh-content: center;}
+
+body 
+    {margin: auto;
+    max-width: 900px;
+    height: auto;
+    overflow: auto;}
 
 main h4
     {font-family:"Trebushet";
     font-size:18px;
     text-transform: lowercase;
-    letter-spacing: 2px;
-    margin:0 auto;}
+    letter-spacing: 2px;}
 
-nav
-    {padding: 10px;
-    border: 1px solid black;
-    margin: 10px;
-    width: 100%vw;
-    height: auto;
-    border-radius:10px;}
-
-nav li
-    {float: left;
-    margin: 0 auto;}
-
-nav ul
-    {clear: both;}
-
-main
-{clear: both;}
-
-main #project
-    {padding: 10px;
-    border: 1px solid black;
-    margin: 0 auto;
-    width: 100%vw;
-    height: 100%vh;
-    max-width:1000px;
-    border-radius:10px;}
-div
-    {padding: 30px;
-    border: 1px solid black;
-    margin: 0 auto;
-    width:30%
-    border-radius:10px;
-    background-color: bisque;}
-
-.project_image
-    {border: 1px solid black;
-    width: 15rem;}
-
-body 
-    {margin: 0 auto;
-    max-width: 900px;}
+.header 
+    {margin: auto 28%;
+    width: 100%;
+    height: 240px;}
 
 .navbar 
-    {float:left;}   
+    {height:250px;
+    margin: auto;
+    width: 100%;}   
 
-aside.projects 
+div.menu
     {float: left;
-    overflow:auto;}
+    margin: auto;
+    width 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 250px;
+    padding-top: 90px}
+
+#menufloat
+{float: left;}
+
+main
+    {height: auto;
+    width: 100%;
+    clear: both;}
 
 #project
-    {margin: 0 auto;}
+    {margin: 0 auto;
+    width: inherit;
+    padding: 3rem;
+    border: solid black 1px;
+    border-radius: 10px;
+    overflow: auto;
+    text-align: center;}
+
+.projects
+    {float: left;
+    overflow:auto;
+    display: block;
+    width: 33%;}
+
+.project_images
+    {display: block;
+    width: 15rem;}
+
+div.center
+    {margin:auto;
+    width:100%;
+    overflow: auto;}
+
+
+footer
+{
+    clear: both;
+    position: relative;
+   margin: auto;
+   width: inherit;
+
+}
 
 #social_media
-{clear: both;}
+    {clear: both;
+    margin: 0 auto;
+    width: 900px;
+    padding: 4rem 2rem 2rem; }
 
 .social_media
     {float: left;
-    margin: 0 auto;}
+    width: 25%}
 
 .social_media img
     {width: 100px;}
@@ -86,4 +106,33 @@ figure
     border-radius:30px;}
 
 aside.about
-    {max-width: 900px;}
+    {max-width: 900px;
+padding: 4rem;
+margin 4rem;}
+
+/*PROJECT PAGES*/
+#leap_text
+{overflow:auto;
+width: 40%;
+float: right;}
+
+#leap-logo
+{
+    position: relative;
+    right: 0;
+}
+
+.flaot
+{
+    float: left;
+    align-content: top;
+}
+
+/*PERSONAL PROJECTS*/
+
+.drawing
+{display: block;
+        float: left;
+        width: 70%;
+}
+

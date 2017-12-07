@@ -2,44 +2,56 @@
 <html>
 <head>
 	<title>Mel Gross</title>
-  <link rel="StyleSheet" href="StylesSheet.css">
+  <link rel="stylesheet" href="styles_sheet.css">
 
 </head>
 <body>
   <!-- THIS IS THE NAVIGATION BAR WITH THE TREE MENU OPTION. THE LOGO IS CENTERED AND BIGGER THAN THE OTHER TWO OPTIONS THAT LEAD TO DIFFERENT PAGES-->
-	<nav>
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href="index.html"><n scr="" alt="Logo"></a></li>
-			<li><a href="perssonal.html">Personal Projects</a></li>
-		</ul>
+	<nav class="navbar">
+		<div class="header">
+			<div class="menu"><a href="about.html" class="text">About</a></div>
+			<div "><a href="index.html" id="menufloat"><img src="assets/mG.jpg" alt="Logo" width="250px"/></a></div>
+			<div class="menu"><a href="personal.html" class="text" >Personal <br> Projects</a></div>
+		</div>
 	</nav>
 <!--IN THE MAIN SECTION OF THE WEBSITE THE PROJECTS WILL BE EVENLY SPACED AND EACH PROJECT WILL CONSIST OF AN IMAGE, THE NAME OF THE COMPANY AND A DESCRIPTION OF THE KIND OF PROJECT IT IS. THE IMAGE AND NAMES WILL BE LINKS TO EACH OF THE PROJECT'S PAGE-->
 	<main id="npc">
-    <img src="assets/projects/npc_cover.jpg" alt="Newton Presbyterian Church" width="400px">
-    <p>Description about this project 01</p>
-    <img src="assets/projects/npc_cover.jpg" alt="Newton Presbyterian Church" width="400px">
-    <p>Description about this project 02</p>
-    <img src="assets/projects/npc_cover.jpg" alt="Newton Presbyterian Church" width="400px">
-    <p>Description about this project 03</p>
-		
+    <img src="assets/npc_image1.png" alt="Newton Presbyterian Church Website" width="400px" class="float">
+    <img src="assets/npc_image2.png" alt="Newton Presbyterian Church Website" width="400px">
+    <p>My comnitiy's  presbyterian church was in need of help re-building their face online. I had the pleasure to have designed their new webpage that reflects their values and sense of community. </p>
+ 
 	</main>
 <!--THIS IS THE FOOTER WHERE THE SOCIAL MEDIA ICONS WILL BE SIDE BY SIDE, LINKING TO MY PAGES-->
+
 	<footer>
-		<div class"social_media">
-      <a href="instagram.com/melgross_art"><img scr="assets/socialMedia/instagram_icon.jpg" alt="Instagram" width="50px"></a>
-      <a href=""><img scr="assets/socialMedia/email_logo.jpg" alt="Email" width="50px"></a>
-      <a href="#"><img scr="assets/socialMedia/linkedin_logo.jpg" alt="LinkedIn" width="50px"></a>
-      <a href="#"><img scr="assets/socialMedia/patreon_logo.jpg" alt="Patreon" width="50px"></a>
-		</div>
-		<div>
+    <div id="social_media">
+        <div class="social_media"> 
+            <a href="https://www.instagram.com/melgross_art/">
+                <img src="assets/instagram_icon.jpg" alt="Instagram" >
+            </a>
+        </div>
+        <div class="social_media">
+            <a href="mailto:mel.cgross@outlook.com">
+                <img src="assets/email_icon.jpg" alt="Email" >
+            </a>
+        </div>
+        <div class="social_media">
+            <a href="https://www.linkedin.com/in/mel-gross-61a97812a/">
+                <img src="assets/linkedin_icon.jpg" alt="LinkedIn" >
+            </a>
+        </div>
+        <div class="social_media">
+            <a href="#">
+                <img src="assets/patreon_icon.jpg" alt="Patreon" >
+            </a>
+        </div>
+    </div>
+		
+	
+	<div class="rights">
 			<p> Rights:Mel Gross</p>
-		</div>
+	</div>
 	</footer>
 </body>
-</html>
 
-<script src="chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/lib/screenlog.js"></script><script src="filesystem:chrome-extension://lkfkkhfhhdkiemehlpkgjeojomhpccnh/temporary/script.js">
-</script>
-</body>
 </html>
