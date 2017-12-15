@@ -10,7 +10,7 @@ html
 
 body 
     {margin: auto;
-    max-width: 900px;
+    max-width: 1000px;
     height: auto;
     overflow: auto;}
 
@@ -21,9 +21,10 @@ main h4
     letter-spacing: 2px;}
 
 .header 
-    {margin: auto 28%;
-    width: 100%;
-    height: 240px;}
+    {width: 43%;
+    height: inherit;
+    margin: 0 auto;
+}
 
 .navbar 
     {height:250px;
@@ -45,12 +46,12 @@ div.menu
 
 a:link
     {font-family:"Bookman";
-    color: darkgrey;
+    color: black;
     text-decoration: none;
     text-align:center; }
 
 a:visited
-    {color: darkgrey;
+    {color: black;
     text-decoration: none;
     text-align:center;}
 a:hover
@@ -77,15 +78,15 @@ main
     display: block;
     width: 33%;}
 
+.projects:hover
+    {border: solid darkgrey 1px;
+    border-radius: 10px;}
+
 .project_images
     {display: block;
     width: 15rem;}
 
-/*.center
-    {margin:auto;
-    width:auto;}
-    overflow: auto;}
-*/
+
 .row1
     {margin:auto;
     width:auto;
@@ -101,7 +102,12 @@ main
     }
 
 #leap
-    {padding: 7% 0 }
+    {padding: 7% 0 ;}
+
+#art-port
+    {margin: 4% 0 ;}
+
+
 footer
 {
     clear: both;
@@ -114,7 +120,7 @@ footer
 #social_media
     {clear: both;
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
     padding: 3rem 2rem 2rem; }
 
 div.social_media
@@ -136,36 +142,118 @@ div.social_media
 /**ABOUT PAGE*/
 figure
     {float: left;
-    border-radius:30px;}
+    border-radius:30px;
+    padding: 4rem;
+    }
 
 aside.about
-    {max-width: 900px;
-padding: 4rem;
+    {max-width: 1000px;
+padding: 2rem;
 margin 4rem;}
 
+#about
+{line-height: 2rem;}
+
+
 /*PROJECT PAGES*/
+
+
+#npc_text
+{overflow:auto;
+width: 40%;
+float: right;
+position: relative;
+top: 50px;
+padding: 2rem;
+border: solid darkgrey 1px;
+border-radius: 10px;}
+
+#zanshin_text
+{overflow:auto;
+width: 40%;
+float: right;
+padding: 2rem;
+border: solid darkgrey 1px;
+border-radius: 10px;}
+
+#paintbar_text
+{overflow:auto;
+width: 40%;
+float: right;
+padding: 2rem;
+border: solid darkgrey 1px;
+border-radius: 10px;}
+
+#recreamundo_text
+{overflow:auto;
+width: 40%;
+float: right;
+padding: 2rem;
+border: solid darkgrey 1px;
+border-radius: 10px;}
+
 #leap_text
 {overflow:auto;
 width: 40%;
-float: right;}
+float: right;
+padding: 2rem;
+border: solid darkgrey 1px;
+border-radius: 10px;}
 
-#leap-logo
-{
-    position: relative;
-    right: 0;
-}
+.button_proj
+    {
+        display: inline-block;
+        float: left;
+        margin: 0 auto;
+        padding: 2rem;
+        border: solid darkgrey 1px;
+    border-radius: 10px;}
 
-.flaot
-{
-    float: left;
-    align-content: top;
-}
+
+
+
+
 
 /*PERSONAL PROJECTS*/
+#drawings
+{
+max-width: 650px;
+overflow: auto;
+margin: auto;
+padding: 1rem;
 
-.drawing
-{display: block;
-        float: left;
-        width: 70%;
 }
+.drawing
+{
+   width: auto;
+    float: left;
 
+}
+.drawing
+    {float: left;
+        width: 50%;
+    }
+
+
+#links
+{
+    clear: both;
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+#center-logo
+{width: 100%;
+margin: auto;}
+.button
+    {
+        display: inline-block;
+        float: left;
+        margin: 0 auto;
+        padding: 2rem;}
+.button:hover
+{
+    border: solid darkgrey 1px;
+    border-radius: 10px;
+}
+        
