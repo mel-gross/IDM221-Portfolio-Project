@@ -43,6 +43,20 @@ div.menu
 #menufloat
 {float: left;}
 
+a:link
+    {font-family:"Bookman";
+    color: darkgrey;
+    text-decoration: none;
+    text-align:center; }
+
+a:visited
+    {color: darkgrey;
+    text-decoration: none;
+    text-align:center;}
+a:hover
+    {color: darkgrey;
+    text-decoration: none;
+    text-align:center;}
 main
     {height: auto;
     width: 100%;
@@ -51,8 +65,8 @@ main
 #project
     {margin: 0 auto;
     width: inherit;
-    padding: 3rem;
-    border: solid black 1px;
+    padding: 2rem;
+    //*border: solid black 1px;*/
     border-radius: 10px;
     overflow: auto;
     text-align: center;}
@@ -67,12 +81,27 @@ main
     {display: block;
     width: 15rem;}
 
-div.center
+/*.center
     {margin:auto;
-    width:100%;
+    width:auto;}
     overflow: auto;}
+*/
+.row1
+    {margin:auto;
+    width:auto;
+    overflow: auto;
+    height: auto;}
 
+.row2
+    {margin:auto;
+    width:auto;
+    overflow: auto;
+    height: auto;
+    vertical-align: center;
+    }
 
+#leap
+    {padding: 7% 0 }
 footer
 {
     clear: both;
@@ -86,17 +115,21 @@ footer
     {clear: both;
     margin: 0 auto;
     width: 900px;
-    padding: 4rem 2rem 2rem; }
+    padding: 3rem 2rem 2rem; }
 
-.social_media
+div.social_media
     {float: left;
-    width: 25%}
+    width: 25%;
+    padding: 0 55px;}
 
 .social_media img
-    {width: 100px;}
+ {width: 70px;
+    height: auto;}
+
 
 .rights
-    {clear: both;
+    {padding: 25px 0;
+    clear: both;
     height: 3rem;}
 
 
